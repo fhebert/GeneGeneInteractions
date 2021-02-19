@@ -1,0 +1,5 @@
+useDynLib(GeneGeneInteractions)
+import(RcppEigen,Rcpp,Matrix)
+export(GGInterScoreTest,SampleGGInter,OmniGGInterTest,GGInterTest)
+importFrom("methods", "as")
+importFrom("stats", "cor", "pnorm", "rbinom", "sd")

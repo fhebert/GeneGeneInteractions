@@ -1,0 +1,11 @@
+Package: GeneGeneInteractions
+Type: Package
+Title: Global tests for the detection of gene-gene interaction effects on binary phenotypes
+Version: 1.0
+Date: 2021-01-16
+Author: Florian Hebert, Mathieu Emily, David Causeur
+Maintainer: Florian Hebert <florianhebert@hotmail.fr>
+Description: The GeneGeneInteractions package provides functions to compute global p-values for the detection of gene-gene interaction effects on a binary phenotype. It also provides a function to generate samples of genotype and phenotype values under a gene-gene interaction logistic model.
+License: GPL-3
+Imports: Rcpp, RcppEigen , Matrix, methods
+LinkingTo: Rcpp, RcppEigen
